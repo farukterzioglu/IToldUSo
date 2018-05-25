@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.10.1" />
+    <PackageReference Include="NUnit.ConsoleRunner" Version="3.8.0" />
+    <PackageReference Include="NUnit.Runners" Version="3.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IToldUSo.Domain\IToldUSo.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
